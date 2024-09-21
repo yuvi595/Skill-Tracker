@@ -67,7 +67,7 @@ def open_quiz(skill):
     elif skill == "JavaScript":
         javascript_quiz()
     else:
-        messagebox.showerror("Error", "Quiz for this skill is not available.")
+        messagebox.showerror("Error", "Quiz for this skill is not availab.")
 
 # Function to display the final status of all skills
 def show_status():
